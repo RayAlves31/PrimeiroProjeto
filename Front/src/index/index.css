@@ -1,0 +1,82 @@
+/* Resetando margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral do body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container centralizado */
+  .container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  /* Estilo da seção de conteúdo */
+  .content {
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  footer p {
+    margin-top: 20px;
+  }
+  
+  /* Adicionando um pouco de responsividade */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .content h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
